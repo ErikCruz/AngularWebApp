@@ -1,4 +1,4 @@
 angular.module('ContactsApp')
-    .controller('ListController', function($scope){
-        $scope.contacts = [];
+    .controller('ListController', function($scope, Contact){
+    
     });
